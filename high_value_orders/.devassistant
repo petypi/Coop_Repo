@@ -1,0 +1,16 @@
+dependencies:
+- rpm:
+  - python${py3}
+- if $venv:
+  - rpm:
+    - python-virtualenv
+- else:
+  - rpm:
+    - python-setuptools
+devassistant_version: 0.11.2
+original_kwargs:
+  name: !!python/unicode 'new_agent_deliveries'
+  venv: !!python/unicode ''
+project_type:
+- python
+- lib

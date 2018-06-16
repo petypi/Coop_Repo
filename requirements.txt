@@ -1,0 +1,4 @@
+openpyxl==2.5.1
+psycopg2_binary==2.7.4
+SQLAlchemy==1.2.6
+psycopg2_binary
